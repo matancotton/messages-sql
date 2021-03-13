@@ -20,4 +20,8 @@ router.post('/messages/add', async (req,res)=> {
     }
 })
 
+router.get('/', (req,res)=> {
+    res.send("Hello")
+})
+
 module.exports = router;
